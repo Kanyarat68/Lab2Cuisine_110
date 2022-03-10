@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+//import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({ Key? key }) : super(key: key);
@@ -692,7 +692,19 @@ class MyHomePage extends StatelessWidget {
     );
   }
 
+  FaIcon(stopwatch, {Color? color}) {}
 
+
+}
+
+class FontAwesomeIcons {
+  static var stopwatch;
+
+  static var utensils;
+
+  static var gripfire;
+
+  static var user;
 }
 
 
