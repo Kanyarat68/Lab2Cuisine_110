@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-//import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({ Key? key }) : super(key: key);
@@ -37,9 +37,9 @@ class MyHomePage extends StatelessWidget {
     );
   }
 
-  Image piccover() => Image.asset('images/omlet_cover.jpg');
-  Image imingredients() => Image.asset('images/omlet_material.jpg');
-  Image omletfinal() => Image.asset('Images/omlet_final.jpg');
+  Image piccover() => Image.asset('https://img.wongnai.com/p/1920x0/2018/05/03/1d0ffa69346f432a828267cddc8d6863.jpg');
+  Image imingredients() => Image.asset('https://img.wongnai.com/p/800x0/2018/05/03/1d12ded0c8b943a7a8a7d281d694876b.jpg');
+  Image omletfinal() => Image.asset('https://img.wongnai.com/p/1600x0/2018/05/03/871b97247c6a4593bf8f7b479fb19a1f.jpg');
 
   Container cuisineheader() {
     return Container(
