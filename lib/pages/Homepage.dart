@@ -37,9 +37,9 @@ class MyHomePage extends StatelessWidget {
     );
   }
 
-  Image piccover() => Image.asset('https://img.wongnai.com/p/1920x0/2018/05/03/1d0ffa69346f432a828267cddc8d6863.jpg');
-  Image imingredients() => Image.asset('https://img.wongnai.com/p/800x0/2018/05/03/1d12ded0c8b943a7a8a7d281d694876b.jpg');
-  Image omletfinal() => Image.asset('https://img.wongnai.com/p/1600x0/2018/05/03/871b97247c6a4593bf8f7b479fb19a1f.jpg');
+  Image piccover() => Image.asset('images/lobster_cover.jpg');
+  Image imingredients() => Image.asset('images/lobster_final.jpg');
+  Image omletfinal() => Image.asset('Images/lobster_material.jpg');
 
   Container cuisineheader() {
     return Container(
@@ -57,7 +57,7 @@ class MyHomePage extends StatelessWidget {
               child: Text(
                 'วิธีทำ\n1 “ล็อบสเตอร์อบชีส”\n1 เมนูอาหารฝรั่งทำง่ายแบบไม่ง้อร้าน! ',
                 style: GoogleFonts.itim(
-                  fontSize: 25,
+                  fontSize: 2,
                   fontWeight: FontWeight.bold,
                   color: Colors.black,
                 ),
@@ -132,7 +132,7 @@ class MyHomePage extends StatelessWidget {
                   padding: const EdgeInsets.only(top: 15, left: 17),
                   child: FaIcon(
                     FontAwesomeIcons.utensils,
-                    color: Colors.orange[400],
+                    color: Colors.pinkAccent[400],
                   ),
                 ),
                 Padding(
@@ -154,7 +154,7 @@ class MyHomePage extends StatelessWidget {
                   padding: const EdgeInsets.only(top: 15, left: 17),
                   child: FaIcon(
                     FontAwesomeIcons.gripfire,
-                    color: Colors.red[700],
+                    color: Colors.red[200],
                   ),
                 ),
                 Padding(
@@ -176,7 +176,7 @@ class MyHomePage extends StatelessWidget {
                   padding: const EdgeInsets.only(top: 15, left: 17),
                   child: FaIcon(
                     FontAwesomeIcons.user,
-                    color: Colors.green[700],
+                    color: Colors.orange[200],
                   ),
                 ),
                 Padding(
@@ -682,11 +682,11 @@ class MyHomePage extends StatelessWidget {
     return Padding(       
       padding: const EdgeInsets.only(top: 10),       
       child: CircleAvatar(         
-        radius: 66,         
-        backgroundColor: Colors.black26,         
+      radius: 66,         
+      backgroundColor: Colors.black26,         
         child: CircleAvatar(           
-          radius: 65,           
-          backgroundImage: NetworkImage('https://scontent.furt1-1.fna.fbcdn.net/v/t39.30808-6/269974980_4119740481460928_4393440076064643909_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=2BvpANKGA44AX9cJ7hB&_nc_ht=scontent.furt1-1.fna&oh=00_AT82CIxVgyBn8CDGKJKyxRdpi_UvLF_0-k4HUBYxxMdFVA&oe=622EA460'),       
+        radius: 65,           
+        backgroundImage: NetworkImage('https://scontent.furt1-1.fna.fbcdn.net/v/t39.30808-6/269974980_4119740481460928_4393440076064643909_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=2BvpANKGA44AX9cJ7hB&_nc_ht=scontent.furt1-1.fna&oh=00_AT82CIxVgyBn8CDGKJKyxRdpi_UvLF_0-k4HUBYxxMdFVA&oe=622EA460'),       
         ),      
       ),     
     );
